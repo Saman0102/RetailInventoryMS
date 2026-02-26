@@ -11,17 +11,16 @@ A robust, Object-Oriented Programming (OOP) based Python application designed to
 4. Data Persistence: (Planned/Implemented) Capability to save and load state using JSON/File I/O.
 
 # Technical Stack
-1. Language: Python 3 
-2. Concepts: Class Methods, Encapsulation, State Management, List Comprehension.
+Language: Python 3   
+Concepts: Class Methods, Encapsulation, State Management, List Comprehension.
 
 # Project Structure
 inventory_manager  
 ├── main.py          
 ├── app.py             
 └── README.md          
-
-# Usage Example
-To run the system, clone the repository and execute the main script:
+# Example
+The inventory_sample.json file provides sample of how the data is stored in the original inventory.json file.
 
 # Bash
 python app.py

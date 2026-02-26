@@ -1,6 +1,5 @@
 from main import Product, Order
 def main_menu():
-    # Load data as soon as the app starts
     print(Product.load_from_json())
 
     while True:
@@ -34,7 +33,6 @@ def main_menu():
             u_qty = input("New quantity: ")
             u_price = input("New price: ")
             
-            # Convert input if provided
             qty = int(u_qty) if u_qty else None
             prc = float(u_price) if u_price else None
             

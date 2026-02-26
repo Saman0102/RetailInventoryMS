@@ -92,14 +92,14 @@ class Order:
     
 # Sample usage
 if __name__ == "__main__":
-    # 1. Load existing data
+    # Load existing data
     print(Product.load_from_json())
 
-    # 2. Add a product if inventory is empty
+    # Add a product if empty
     if not Product.inventory:
         print(Product.add_product("Gaming Mouse", "Peripherals", 100, 49.99, "Logitech"))
 
-    # 3. Process an order
+    # Process an order
     my_order = Order(customer_info="Alice")
     print(my_order.add_to_order(product_id=1, quantity=2))
     
